@@ -1,10 +1,10 @@
+import React from 'react';
+
+import stylesheet from 'styles/index.scss';
+
 export default () => (
-  <div>My Site
-    <style global jsx>{`
-      body {
-        background: black;
-        color: white;
-      }
-    `}</style>
+  <div>
+    <style dangerouslySetInnerHTML={{ __html: stylesheet }}/>
+    <h1>My Site</h1>
   </div>
 )
