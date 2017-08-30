@@ -11,7 +11,7 @@ export default () => (
     <Head>
       <title>Nick Hess</title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no'/>
-      <link rel='icon' href='/static/favicon.icon'/>
+      <link rel='icon' href='/static/favicon.ico' type='image/x-icon'/>
     </Head>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }}/>
     <div className='home'>
