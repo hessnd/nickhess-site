@@ -1,6 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 
+import Bio from '../components/Bio';
+import Work from '../components/Work';
+
 import stylesheet from 'styles/index.scss';
 
 export default () => (
@@ -11,6 +14,13 @@ export default () => (
       <link rel='icon' href='/static/favicon.icon'/>
     </Head>
     <style dangerouslySetInnerHTML={{ __html: stylesheet }}/>
-    <h1>My Site</h1>
+    <div className='home'>
+      <div className='left'>
+        <Bio />
+      </div>
+      <div className='right'>
+        <Work />
+      </div>
+    </div>
   </div>
 )
