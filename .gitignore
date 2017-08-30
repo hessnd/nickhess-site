@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# production
+/.next
+/dist
+/build
+
+#misc
+.DS_Store
+npm-debug.log*
+
